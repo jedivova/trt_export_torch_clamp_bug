@@ -1,5 +1,7 @@
 ## Description
 
+[Bug report url](https://github.com/NVIDIA/TensorRT/issues/2521#issuecomment-1340966042)
+
 My model has few torch.clamp() func in it. exporting half-precision pytorch model (via path Pytorch-> ONNX -> TRT) then output of my model is zeroed.
 I've created minimal repro code (please see attached notebook).
 
